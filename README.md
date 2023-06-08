@@ -46,7 +46,7 @@ import makeWASocket from '@adiwajshing/baileys'
 ```
  Atau
 ``` js 
-const connection = require("@adiwajshing/Baileys")
+const { makeWASocket } = require("@adiwajshing/Baileys")
 ```
 
 ## Connection
