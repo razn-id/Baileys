@@ -78,6 +78,6 @@ jobs:
         asset_content_type: application/x-compressed-tar
     
     - name: NPM Publish
-      run: npm publish --access public
+      run: npm publish
       with:
-        token: ${{ secrets.NPM_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
