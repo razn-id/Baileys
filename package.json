@@ -1,8 +1,8 @@
 {
-  "name": "baileys",
+  "name": "@razan-id/baileys-lib",
   "version": "6.0.8",
   "description": "Baileys Fixed",
-  "homepage": "https://github.com/amiruldev20/Baileys",
+  "homepage": "https://github.com/razn-id/Baileys-Library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "keywords": [
@@ -16,6 +16,7 @@
     "automation",
     "multi-device",
     "Amirul Dev",
+    "Razn-id",
     "Baileys"
   ],
   "scripts": {
@@ -29,10 +30,10 @@
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint . --fix --ext .js,.ts,.jsx,.tsx"
   },
-  "author": "Amirul Dev",
+  "author": "Razan-Id",
   "license": "MIT",
   "repository": {
-    "url": "git@github.com:amiruldev20/baileys.git"
+    "url": "git@github.com:razn-id/Baileys-Library.git"
   },
   "dependencies": {
     "@hapi/boom": "^9.1.3",
